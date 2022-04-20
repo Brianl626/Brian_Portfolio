@@ -15,6 +15,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatDividerModule } from '@angular/material/divider';
+import { ProjectComponent } from './projects/project/project.component';
 
 
 
@@ -27,7 +28,8 @@ import { MatDividerModule } from '@angular/material/divider';
     HomeComponent,
     AboutComponent,
     ProjectsComponent,
-    SkillsComponent
+    SkillsComponent,
+    ProjectComponent
   ],
   imports: [
     BrowserModule,

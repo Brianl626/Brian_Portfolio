@@ -22,16 +22,17 @@ h1 {
 }
 
 #home p span {
-  color: #D84315;
+  color: #FAA78E;
   padding-bottom: 4px;
   letter-spacing: 2px;
 }
 
 .typing {
-  text-shadow: -1px 0 black,
-  0 1px black,
-  1px 0 black,
-  0 -1px black;
+  font-family: 'Cabin Sketch', cursive;
+  text-shadow: -2px 0 #143347,
+  0 2px #143347,
+  2px 0 #143347,
+  0 -2px #143347;
 }
 
 .typed {
