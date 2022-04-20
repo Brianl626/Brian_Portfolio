@@ -1,0 +1,31 @@
+<section class="main" id="about">
+  <mat-grid-list class="grid" cols="5" rowHeight="100px">
+    <mat-grid-tile-header><h1>Hello, I'm Brian.</h1></mat-grid-tile-header>
+    <mat-grid-tile class="title" [colspan]="2" [rowspan]="1">
+      <h2>A Front End / Angular Developer</h2>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="3" [rowspan]="1"></mat-grid-tile>
+    <mat-grid-tile [colspan]="1" [rowspan]="2">
+      <ul>
+        <div>
+          <mat-icon>location_on</mat-icon>
+          <strong> Los Angeles, CA</strong>
+        </div>
+        <div>
+          <mat-icon>school</mat-icon>
+          <strong> Master's Degree</strong>
+        </div>
+        <div>
+          <mat-icon>phone</mat-icon>
+          <strong> (123)456-789</strong>
+        </div>
+      </ul>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="1" [rowspan]="4"></mat-grid-tile>
+    <mat-grid-tile [colspan]="3" [rowspan]="4">
+      <ul>
+        <li *ngFor="let text of textlist">{{ text }}</li>
+      </ul>
+    </mat-grid-tile>
+  </mat-grid-list>
+</section>

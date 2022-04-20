@@ -1,0 +1,23 @@
+<header>
+    <mat-toolbar color="primary">
+    <button mat-flat-button color="primary" class="home" aria-label="Home button clickable" (click)="goHome()">
+      <mat-icon>home</mat-icon>
+      Home
+    </button>
+    <span class="spacer"></span>
+    <div class="button-group">
+      <button mat-flat-button color="primary" class="About" aria-label="About self" (click)="goAbout()">
+        <mat-icon>person</mat-icon>
+        About
+      </button>
+      <button mat-flat-button color="primary" class="Skills" aria-label="tech stack" (click)="goSkill()">
+        <mat-icon>build</mat-icon>
+        Skills
+      </button>
+      <button mat-flat-button color="primary" class="Projects" aria-label="project experience" (click)="goProject()">
+        <mat-icon>work</mat-icon>
+        Project Experience
+      </button>
+    </div>
+  </mat-toolbar>
+</header>
